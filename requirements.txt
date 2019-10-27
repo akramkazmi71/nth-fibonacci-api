@@ -1,0 +1,2 @@
+Django==2.2.6
+django-distill==1.6
