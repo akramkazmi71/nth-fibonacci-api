@@ -5,7 +5,7 @@ import time
 from myapp.models import Fibonacci
 
 def index(request):
-    return HttpResponse('<head><title>Nth Fibonacci Number</title></head><center><h1>Enter the Postion:</h1><form name="val" action="/fibo/" method="get"><input type="text" name="val"><input type="submit" value="Submit"></form>')
+    return HttpResponse('<head><title>Find Nth Fibonacci Number</title></head><center><h1>Enter the Nth Postion:</h1><form name="val" action="/fibo/" method="get"><input type="text" name="val"><input type="submit" value="Submit"></form>')
 
 def nth_fib(n):
 	if not isinstance(n, int) or n < 0 or isinstance(n, bool):
