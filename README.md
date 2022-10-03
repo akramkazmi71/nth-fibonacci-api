@@ -1,6 +1,6 @@
 # Nth Fibonacci Api
 
-This API is used to find the number present at nth position in the fibonacci sequence.
+This API is used to find the number present at Nth position in the fibonacci sequence.
 
 ## To run it on local server
 
